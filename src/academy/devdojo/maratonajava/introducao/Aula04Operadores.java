@@ -1,5 +1,6 @@
 package academy.devdojo.maratonajava.introducao;
 
+
 public class Aula04Operadores {
     public static void main(String[] args) {
         // + - /*
@@ -24,6 +25,15 @@ public class Aula04Operadores {
         System.out.println("isDezMaiorQueVinte "+isDezIgualVinte);
         System.out.println("isDezIgualDez "+isDezIgualDez);
         System.out.println("isDezDiferenteDez "+isDezDiferenteDez);
+
+        //  && (AND)   || (or)  ! (not)
+        int idade  = 29;
+        float salario = 3500F;
+        boolean isdentroDaLeiMaiorQueTrinta = idade >= 30   && salario >= 4612 ;
+        boolean isdentroDaLeiMenorQueTrinta = idade < 30   && salario >= 3381 ;
+        System.out.println(" ");
+        System.out.println(" dentroDaLeiMaiorQueTrinta " + isdentroDaLeiMaiorQueTrinta);
+        System.out.println(" dentroDaLeiMenorQueTrinta " + isdentroDaLeiMenorQueTrinta);
 
     }
 }
