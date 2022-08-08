@@ -4,7 +4,7 @@ public class Aula02TiposPrimitivos {
     public static void main(String[] args) {
         // int, bouble, float, char, byte, short, long, boolean
         int idade = 10;
-        long numeroGrande =(long) 155.23;
+        long numeroGrande = 155;
         double SalarioDouble = 2000;
         float salarioFloat = 2500;
         byte idadeByte = 10;
