@@ -22,12 +22,17 @@ public class EstudanteTest01 {
         System.out.println(estudante01.sexo);
 
         System.out.println("------------------");
+
         System.out.println(estudante02.nome);
         System.out.println(estudante02.idade);
         System.out.println(estudante02.sexo);
 
         impressora.imprime(estudante01);
         impressora.imprime(estudante02);
+
+
+
+
 
     }
 }

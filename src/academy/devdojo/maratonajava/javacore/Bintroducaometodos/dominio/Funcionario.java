@@ -1,6 +1,7 @@
 package academy.devdojo.maratonajava.javacore.Bintroducaometodos.dominio;
 
 public class Funcionario {
+
     public String nome;
     public int idade;
     public double[] salarios;
@@ -29,7 +30,7 @@ public class Funcionario {
             media += salario;
         }
         media /= salarios.length;
-        System.out.println("Media salaria " + media);
+        System.out.println("\nMedia salaria " + media);
 
     }
 

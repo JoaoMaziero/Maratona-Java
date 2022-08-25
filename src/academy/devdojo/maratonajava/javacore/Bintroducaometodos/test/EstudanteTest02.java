@@ -9,11 +9,11 @@ public class EstudanteTest02 {
         Estudante estudante01 = new Estudante();
         Estudante estudante02 = new Estudante();
 
-        estudante01.nome = "Midoria";
+        estudante01.nome = "Midoriya";
         estudante01.idade = 15;
         estudante01.sexo = 'M';
 
-        estudante02.nome = "Sacura";
+        estudante02.nome = "SaKura";
         estudante02.idade = 16;
         estudante02.sexo = 'F';
 

@@ -7,10 +7,10 @@ public class Estudante {
 
     public void imprime() {
         System.out.println("----------------------------");
+
         System.out.println(this.nome);
         System.out.println(this.idade);
         System.out.println(this.sexo);
-
     }
 }
 
